@@ -10,7 +10,7 @@ development:
 hetzner:
   <<: *default
   adapter: postgresql
-  database: solonet
+  database: logorebusy
   host: localhost
   username: solonet
   password: solohan
