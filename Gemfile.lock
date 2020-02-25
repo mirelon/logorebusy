@@ -140,7 +140,7 @@ GEM
     minitest (5.13.0)
     multi_json (1.12.2)
     nio4r (2.1.0)
-    nokogiri (1.10.7)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     paperclip (5.2.0)
       activemodel (>= 4.2.0)
