@@ -14,3 +14,9 @@
 # ActiveSupport::Inflector.inflections(:en) do |inflect|
 #   inflect.acronym 'RESTful'
 # end
+
+ActiveSupport::Inflector.inflections(:en) do |inflect|
+  inflect.irregular 'farebne_slovo', 'farebne_slova'
+  inflect.irregular 'farebne', 'farebne'
+  inflect.irregular 'slovo', 'slova'
+end

@@ -290,4 +290,16 @@ ActiveAdmin.setup do |config|
   # You can inherit it with own class and inject it for all resources
   #
   # config.order_clause = MyOrderClause
+  module Arbre
+    module HTML
+      class Text < Tag
+        builder_method :text
+      end
+      class Rect < Tag
+        builder_method :rect
+      end
+    end
+  end
+
+  ActiveAdmin::Views::Pages::Base.include FarebneSlovoSvgPanel
 end
